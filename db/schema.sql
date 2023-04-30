@@ -4,7 +4,7 @@ CREATE DATABASE songs_dev;
 
 \connect songs_dev;
 
-CREATE TABLE songs_table (
+CREATE TABLE songs (
     name VARCHAR(255) NOT NULL,
     artist VARCHAR(255) NOT NULL,
     album VARCHAR(255),
